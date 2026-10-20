@@ -1,6 +1,6 @@
-# Unlocking AI for sustainability (UAIFS) website, version A7
+# Unlocking AI for sustainability (UAIFS) website, version A8
 
-Track A, version 7. Builds on A6 (final A6 state, including all A6 edits listed below).
+Track A, version 8. Builds on A7.
 
 ## What's in this folder
 
@@ -12,7 +12,7 @@ Track A, version 7. Builds on A6 (final A6 state, including all A6 edits listed 
 | `assets/img/client-logos/` | White, transparent client logos used in the homepage logo strip (also built into `index.html`). |
 | `assets/img/partner-logos/` | UNDP and Gurīn Energy logos used on the partner cards. |
 | `assets/logos/` | Event logos: trimmed white and black PNGs, plus the original uploads. The site uses the white version. |
-| `docs/UAIFS_A7_content_template.xlsx` | Fresh content template exported from A7, for the next round of copy changes. |
+| `docs/UAIFS_A8_content_template.xlsx` | Fresh content template exported from A8, for the next round of copy changes. |
 | `favicon.ico` | Site icon (16, 32 and 48 px) at the web root, where browsers look for it by default. |
 | `assets/favicon/` | The supplied favicon PNGs (16, 32, 180, 512 px) for reuse, e.g. in a web app manifest. |
 | `.nojekyll` | Lets GitHub Pages serve the site as-is. |
@@ -20,6 +20,19 @@ Track A, version 7. Builds on A6 (final A6 state, including all A6 edits listed 
 ## How to upload
 
 Upload the **contents** of this folder to the web root, so `index.html` sits at the top level and `assets/` sits beside it. The social share image is referenced at `https://www.unlockingaiforsustainability.com/assets/img/og-share.jpg`; if the site lives on another domain, update the `og:image` line in `index.html`.
+
+## Changes in A8
+
+- **Partner links:** the UNDP and Gurīn Energy cards (Partner with us, Singapore 2026) now link to https://www.undp.org/ and https://gurinenergy.com/, opening in a new tab. Cards lift slightly on hover and show a small arrow after the name.
+- **Elina Noor** added as a speaker in the 12.30pm Oxford Debate (agenda card and the homepage session card). Her speaker cards on Home, Speakers and Singapore 2026 now say "At the summit: The Oxford Debate".
+- **Ticket price:** S$88, inclusive of GST. Added to the Register page (event details under the heading and the FAQ "Is there a fee to attend?") and to the Singapore 2026 event facts.
+
+- **About page redesigned** to be easier to scan, with the same official messaging in shorter pieces:
+  - *The summit:* one-line intro, four "who we bring together" tiles, a highlighted quote with the five decision areas as tags, and a timeline from UCFS (2018) to UAIFS Singapore (2026) and expansion (2027+).
+  - *Why now:* two chart cards (US$15T global GDP with the US$1T ASEAN share shown as a bar, sourced to UNDP; the ~200-fold income gap as a comparison bar), three "pressures" tiles (energy and water, jobs and livelihoods, capital flows), an "if deployed responsibly / without safeguards" comparison, and a short callout on Singapore's UN call.
+  - *Themes and Objectives:* icon cards with shorter text.
+  - *Who's in the room / The day:* a ~150 delegates ring with audience tags, event facts (date, time, venue, ticket) and the eight-session run of the day.
+  - All charts are built with code (no images), are labelled for screen readers and stack neatly on mobile.
 
 ## Changes in A7
 
