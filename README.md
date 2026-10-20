@@ -1,6 +1,6 @@
-# Unlocking AI for sustainability (UAIFS) website, version A6
+# Unlocking AI for sustainability (UAIFS) website, version A7
 
-Track A, version 6. Builds on A5.
+Track A, version 7. Builds on A6 (final A6 state, including all A6 edits listed below).
 
 ## What's in this folder
 
@@ -12,12 +12,29 @@ Track A, version 6. Builds on A5.
 | `assets/img/client-logos/` | White, transparent client logos used in the homepage logo strip (also built into `index.html`). |
 | `assets/img/partner-logos/` | UNDP and Gurīn Energy logos used on the partner cards. |
 | `assets/logos/` | Event logos: trimmed white and black PNGs, plus the original uploads. The site uses the white version. |
-| `docs/UAIFS_A6_content_template.xlsx` | Fresh content template exported from A6, for the next round of copy changes. |
+| `docs/UAIFS_A7_content_template.xlsx` | Fresh content template exported from A7, for the next round of copy changes. |
+| `favicon.ico` | Site icon (16, 32 and 48 px) at the web root, where browsers look for it by default. |
+| `assets/favicon/` | The supplied favicon PNGs (16, 32, 180, 512 px) for reuse, e.g. in a web app manifest. |
 | `.nojekyll` | Lets GitHub Pages serve the site as-is. |
 
 ## How to upload
 
 Upload the **contents** of this folder to the web root, so `index.html` sits at the top level and `assets/` sits beside it. The social share image is referenced at `https://www.unlockingaiforsustainability.com/assets/img/og-share.jpg`; if the site lives on another domain, update the `og:image` line in `index.html`.
+
+## Changes in A7
+
+**Favicon.** The new "AI" icon replaces the browser's default icon. `index.html` carries the 32 px and 16 px PNGs (sharpest at tab size) and the 180 px version as the Apple touch icon (iPhone and iPad home screens), all built into the page. `favicon.ico` sits at the web root as a fallback for older browsers and bookmarks. The 512 px file is supplied for later use (e.g. a web app manifest); it is too large to build into the page.
+
+**"Who we convene" logo strip, updated to the approved list (batch 1 of 2).**
+- Now shows 20 white logos: Temasek Foundation, UOB, City Developments Limited, BDO Unibank, CapitaLand Investment, OCBC, CDP, EU-ASEAN Business Council, ICMA, Climate Policy Initiative, Greeneration Foundation, AmBank Group, Control Union, RSPO, TOMRA, Energy Shift Institute, CEO Action Network, Climate Governance Malaysia, ESG Malaysia, Ayala Corporation.
+- 13 new logos converted from the supplied files to white on transparent (backgrounds removed); where a logo has white detail inside a coloured shape (AmBank's box, ESG Malaysia's panel, Greeneration's roundel), that detail is cut out so it stays readable.
+- Removed (not on the approved list): ABB, AWS, Danfoss, ENGIE Impact, Envision Digital, Fair Finance Asia, NUS, Olam, Planet, Reuters, S&P Global, Schneider Electric, Sembcorp, Siemens, Temasek, UNEP, Unilever, Wilmar.
+- The existing "BDO" logo is kept as BDO Unibank; replace it if that logo is not BDO Unibank's.
+
+**"Who we convene" logo strip, batch 2.**
+- Added: UNEP FI, Stockholm Environment Institute, SSFA, Koalisi Ekonomi Membumi, Terratai, MyDIGITAL, The World Bank. The strip now shows 27 logos in the order of the approved list.
+- RSPO and TOMRA keep their existing white logos (made from official white versions, which keep more detail than the colour files supplied).
+- Still missing (no logo supplied yet): NTU – CSFI, Ember, FIDE FORUM, Bond and Sukuk Information Exchange (BIX), MySDG Academy.
 
 ## Changes in A6
 
@@ -85,6 +102,8 @@ Upload the **contents** of this folder to the web root, so `index.html` sits at 
 
 - Jessica Cheam's "Full bio" (expandable) added to her speaker card on Home and Singapore 2026, matching the Speakers page.
 
+- Homepage logo section retitled "Who we convene". All 25 organisations now show as white logos: RSPO, S&P Global, Schneider Electric, Sembcorp and Temasek Foundation added, and NUS and Reuters replaced with higher-resolution versions.
+
 ## Check before launch
 
 1. **Debate motion:** the programme says today's AI leaders **can** be trusted; the speaker brief for Yu Ping Chan said **cannot**. The site uses "can" (programme). Confirm which is right.
@@ -92,4 +111,4 @@ Upload the **contents** of this folder to the web root, so `index.html` sits at 
 3. **Elina Noor:** no session given, so her card says "session to be announced". Tell us which session she is in.
 4. **"Speaking on" tags** for the new speakers were drafted from their bios; please check.
 5. **Unconfirmed slots:** guest-of-honour or fireside speaker, the 12.00pm conversation speaker (IMDA CEO, not named until confirmed), further debaters and the closing remarks speaker. These sessions currently show no speakers; add them as they are confirmed.
-7. **Client logos still needed:** RSPO, S&P Global, Schneider Electric, Sembcorp, Temasek Foundation (white or any colour, PNG or SVG). NUS and CDL were upscaled from small screenshots; higher-resolution files would sharpen them.
+7. **Client logos:** CDL is still upscaled from a small screenshot; a higher-resolution file would sharpen it.
