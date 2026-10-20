@@ -10,6 +10,7 @@ Track A, version 6. Builds on A5.
 | `assets/img/og-share.jpg` | Social share image (1200 x 600), referenced by the `og:image` tag. |
 | `assets/img/speakers/` | Cropped speaker photos (also built into `index.html`; supplied for reuse). |
 | `assets/img/client-logos/` | White, transparent client logos used in the homepage logo strip (also built into `index.html`). |
+| `assets/img/partner-logos/` | UNDP and Gurīn Energy logos used on the partner cards. |
 | `assets/logos/` | Event logos: trimmed white and black PNGs, plus the original uploads. The site uses the white version. |
 | `docs/UAIFS_A6_content_template.xlsx` | Fresh content template exported from A6, for the next round of copy changes. |
 | `.nojekyll` | Lets GitHub Pages serve the site as-is. |
@@ -75,6 +76,15 @@ Upload the **contents** of this folder to the web root, so `index.html` sits at 
 - Logos are sized to look balanced (stacked logos slightly taller, wide wordmarks slightly shorter), shown at 78% white and full white on hover; the strip pauses on hover.
 - No logo file was available for RSPO, S&P Global, Schneider Electric, Sembcorp and Temasek Foundation; these stay as white text in the strip until logo files are supplied.
 
+**Latest A6 edits:**
+- Partner cards (Partner with us, Singapore 2026) now show the UNDP and Gurīn Energy logos on white logo plates, with the organisation name underneath. Section heading changed from "Partners by edition" to "Singapore 2026 partners".
+- Yu Ping Chan's photo replaced with the higher-resolution file.
+- 9.30am session relabelled "Fireside chat" everywhere ("Ministerial address or" removed from the badge, format line, day-at-a-glance bars, agenda intro, About and Singapore 2026).
+- 11.15am "The next frontier" relabelled as a Panel (format: panel with audience Q&A).
+- "Next edition – To be announced" tabs and their placeholder panels removed from Agenda, Speakers and Partner with us; each page now shows the Singapore 2026 content directly.
+
+- Jessica Cheam's "Full bio" (expandable) added to her speaker card on Home and Singapore 2026, matching the Speakers page.
+
 ## Check before launch
 
 1. **Debate motion:** the programme says today's AI leaders **can** be trusted; the speaker brief for Yu Ping Chan said **cannot**. The site uses "can" (programme). Confirm which is right.
@@ -83,4 +93,3 @@ Upload the **contents** of this folder to the web root, so `index.html` sits at 
 4. **"Speaking on" tags** for the new speakers were drafted from their bios; please check.
 5. **Unconfirmed slots:** guest-of-honour or fireside speaker, the 12.00pm conversation speaker (IMDA CEO, not named until confirmed), further debaters and the closing remarks speaker. These sessions currently show no speakers; add them as they are confirmed.
 7. **Client logos still needed:** RSPO, S&P Global, Schneider Electric, Sembcorp, Temasek Foundation (white or any colour, PNG or SVG). NUS and CDL were upscaled from small screenshots; higher-resolution files would sharpen them.
-6. **Partner logos:** UNDP and Gurīn Energy are shown as names. Send logo files (SVG or transparent PNG) to show logos instead.
