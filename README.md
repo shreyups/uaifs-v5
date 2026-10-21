@@ -1,6 +1,6 @@
-# Unlocking AI for sustainability (UAIFS) website, version A8
+# Unlocking AI for sustainability (UAIFS) website, version A9
 
-Track A, version 8. Builds on A7.
+Track A, version 9. Builds on A8.
 
 ## What's in this folder
 
@@ -12,7 +12,7 @@ Track A, version 8. Builds on A7.
 | `assets/img/client-logos/` | White, transparent client logos used in the homepage logo strip (also built into `index.html`). |
 | `assets/img/partner-logos/` | UNDP and Gurīn Energy logos used on the partner cards. |
 | `assets/logos/` | Event logos: trimmed white and black PNGs, plus the original uploads. The site uses the white version. |
-| `docs/UAIFS_A8_content_template.xlsx` | Fresh content template exported from A8, for the next round of copy changes. |
+| `docs/UAIFS_A9_content_template.xlsx` | Fresh content template exported from A9, for the next round of copy changes. |
 | `favicon.ico` | Site icon (16, 32 and 48 px) at the web root, where browsers look for it by default. |
 | `assets/favicon/` | The supplied favicon PNGs (16, 32, 180, 512 px) for reuse, e.g. in a web app manifest. |
 | `.nojekyll` | Lets GitHub Pages serve the site as-is. |
@@ -20,6 +20,12 @@ Track A, version 8. Builds on A7.
 ## How to upload
 
 Upload the **contents** of this folder to the web root, so `index.html` sits at the top level and `assets/` sits beside it. The social share image is referenced at `https://www.unlockingaiforsustainability.com/assets/img/og-share.jpg`; if the site lives on another domain, update the `og:image` line in `index.html`.
+
+## Changes in A9
+
+- **Ticket price removed** from the whole site: the Register page details, the "Is there a fee to attend?" FAQ, the Singapore 2026 event facts and the About page facts.
+- **FAQs removed:** "Can I register colleagues?" and "What is the cancellation policy?".
+- **New speaker: Hwee Ping Sim**, Co-Head, Project Management Office, Gurīn Energy, in the 10.15am opening plenary ("The infrastructure paradox"). Added with photo, short bio, full bio and "Speaking on" tags to Home, Speakers and Singapore 2026, to the plenary's agenda card, and to the homepage session card.
 
 ## Changes in A8
 
