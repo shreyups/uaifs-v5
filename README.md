@@ -1,6 +1,6 @@
-# Unlocking AI for sustainability (UAIFS) website, version A9
+# Unlocking AI for sustainability (UAIFS) website, version A10
 
-Track A, version 9. Builds on A8.
+Track A, version 10. Same content as the final A9 (all A9 changes below), saved as a new version.
 
 ## What's in this folder
 
@@ -12,7 +12,7 @@ Track A, version 9. Builds on A8.
 | `assets/img/client-logos/` | White, transparent client logos used in the homepage logo strip (also built into `index.html`). |
 | `assets/img/partner-logos/` | UNDP and Gurīn Energy logos used on the partner cards. |
 | `assets/logos/` | Event logos: trimmed white and black PNGs, plus the original uploads. The site uses the white version. |
-| `docs/UAIFS_A9_content_template.xlsx` | Fresh content template exported from A9, for the next round of copy changes. |
+| `docs/UAIFS_A10_content_template.xlsx` | Fresh content template exported from A10, for the next round of copy changes. |
 | `favicon.ico` | Site icon (16, 32 and 48 px) at the web root, where browsers look for it by default. |
 | `assets/favicon/` | The supplied favicon PNGs (16, 32, 180, 512 px) for reuse, e.g. in a web app manifest. |
 | `.nojekyll` | Lets GitHub Pages serve the site as-is. |
@@ -21,11 +21,26 @@ Track A, version 9. Builds on A8.
 
 Upload the **contents** of this folder to the web root, so `index.html` sits at the top level and `assets/` sits beside it. The social share image is referenced at `https://www.unlockingaiforsustainability.com/assets/img/og-share.jpg`; if the site lives on another domain, update the `og:image` line in `index.html`.
 
+## Changes in A10
+
+No content changes: A10 is the final A9 site saved as a new version, as the base for the next round of edits.
+
 ## Changes in A9
 
 - **Ticket price removed** from the whole site: the Register page details, the "Is there a fee to attend?" FAQ, the Singapore 2026 event facts and the About page facts.
 - **FAQs removed:** "Can I register colleagues?" and "What is the cancellation policy?".
 - **New speaker: Hwee Ping Sim**, Co-Head, Project Management Office, Gurīn Energy, in the 10.15am opening plenary ("The infrastructure paradox"). Added with photo, short bio, full bio and "Speaking on" tags to Home, Speakers and Singapore 2026, to the plenary's agenda card, and to the homepage session card.
+
+**Programme update (highlighted changes in the 20 November working doc):**
+- **12.00pm:** "In conversation: Built to adapt" removed. Replaced by **[In focus] AI in action: Proven use cases for sustainable impact** (30 min), with the synopsis, why it matters and takeaways from the programme, and **Reuben Lai**, CEO and Co-Founder, Arkadiah, as speaker. Day-at-a-glance bars (Agenda, Home, Singapore 2026), the Singapore 2026 session blocks, the agenda intro and the About page day list all updated.
+- **11.15am panel:** **Daniel A. Levine**, Senior Digital & AI Specialist, World Bank Group, added as a speaker.
+- **12.30pm Oxford Debate:** **Gaurav Keerthi**, Chief Executive Officer, StrongKeep Cybersecurity, added as a speaker, with photo, short bio and full bio on Home, Speakers and Singapore 2026, the debate's agenda card and the homepage session card.
+
+**Follow-up updates:**
+- **Daniel A. Levine** (World Bank Group) and **Reuben Lai** (Arkadiah): full speaker cards with photo, short bio, full bio and session link added to Home, Speakers and Singapore 2026; photos added to their agenda entries.
+- **Gaurav Keerthi**'s title is now "Founder and CEO, StrongKeep Cybersecurity" everywhere.
+- **10.15am opening plenary and 11.15am panel:** synopses, "Why it matters" and takeaways replaced with the versions in the programme doc.
+- **End time is now 3.00pm** (9.00am to 3.00pm, GMT+8, extended for the networking lunch) on every page and in the event data for search engines. The agenda now ends with a 3.00pm "End of summit" line.
 
 ## Changes in A8
 
