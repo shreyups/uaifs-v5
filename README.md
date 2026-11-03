@@ -1,6 +1,6 @@
-# Unlocking AI for sustainability (UAIFS) website, version A10
+# Unlocking AI for sustainability (UAIFS) website, version A11
 
-Track A, version 10. Same content as the final A9 (all A9 changes below), saved as a new version.
+Track A, version 11. Builds on A10.
 
 ## What's in this folder
 
@@ -12,7 +12,7 @@ Track A, version 10. Same content as the final A9 (all A9 changes below), saved 
 | `assets/img/client-logos/` | White, transparent client logos used in the homepage logo strip (also built into `index.html`). |
 | `assets/img/partner-logos/` | UNDP and Gurīn Energy logos used on the partner cards. |
 | `assets/logos/` | Event logos: trimmed white and black PNGs, plus the original uploads. The site uses the white version. |
-| `docs/UAIFS_A10_content_template.xlsx` | Fresh content template exported from A10, for the next round of copy changes. |
+| `docs/UAIFS_A11_content_template.xlsx` | Fresh content template exported from A11, for the next round of copy changes. |
 | `favicon.ico` | Site icon (16, 32 and 48 px) at the web root, where browsers look for it by default. |
 | `assets/favicon/` | The supplied favicon PNGs (16, 32, 180, 512 px) for reuse, e.g. in a web app manifest. |
 | `.nojekyll` | Lets GitHub Pages serve the site as-is. |
@@ -20,6 +20,10 @@ Track A, version 10. Same content as the final A9 (all A9 changes below), saved 
 ## How to upload
 
 Upload the **contents** of this folder to the web root, so `index.html` sits at the top level and `assets/` sits beside it. The social share image is referenced at `https://www.unlockingaiforsustainability.com/assets/img/og-share.jpg`; if the site lives on another domain, update the `og:image` line in `index.html`.
+
+## Changes in A11
+
+- **New speaker: Dr Shashi Jayakumar**, Founder and Executive Director, SJKGeostrategic Advisory, in the 12.30pm Oxford Debate. Speaker card with photo, short bio, full bio and "Speaking on" tags on Home, Speakers and Singapore 2026; added to the debate's agenda card and the homepage session card.
 
 ## Changes in A10
 
