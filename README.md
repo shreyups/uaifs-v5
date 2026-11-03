@@ -10,7 +10,7 @@ Track A, version 11. Builds on A10.
 | `assets/img/og-share.jpg` | Social share image (1200 x 600), referenced by the `og:image` tag. |
 | `assets/img/speakers/` | Cropped speaker photos (also built into `index.html`; supplied for reuse). |
 | `assets/img/client-logos/` | White, transparent client logos used in the homepage logo strip (also built into `index.html`). |
-| `assets/img/partner-logos/` | UNDP and Gurīn Energy logos used on the partner cards. |
+| `assets/img/partner-logos/` | UNDP, Gurīn Energy and PRI logos used on the partner cards. |
 | `assets/logos/` | Event logos: trimmed white and black PNGs, plus the original uploads. The site uses the white version. |
 | `docs/UAIFS_A11_content_template.xlsx` | Fresh content template exported from A11, for the next round of copy changes. |
 | `favicon.ico` | Site icon (16, 32 and 48 px) at the web root, where browsers look for it by default. |
@@ -24,6 +24,7 @@ Upload the **contents** of this folder to the web root, so `index.html` sits at 
 ## Changes in A11
 
 - **New speaker: Dr Shashi Jayakumar**, Founder and Executive Director, SJKGeostrategic Advisory, in the 12.30pm Oxford Debate. Speaker card with photo, short bio, full bio and "Speaking on" tags on Home, Speakers and Singapore 2026; added to the debate's agenda card and the homepage session card.
+- **New partner: PRI (Principles for Responsible Investment) as Knowledge partner**, shown with its full-colour logo on a white plate like UNDP and Gurīn Energy, linking to https://www.unpri.org/ (opens in a new tab). Added on Partner with us and Singapore 2026; the three partners now sit side by side on desktop and stack on mobile.
 
 ## Changes in A10
 
