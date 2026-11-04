@@ -1,6 +1,6 @@
-# Unlocking AI for sustainability (UAIFS) website, version A11
+# Unlocking AI for sustainability (UAIFS) website, version A12
 
-Track A, version 11. Builds on A10.
+Track A, version 12. Builds on A11.
 
 ## What's in this folder
 
@@ -12,7 +12,7 @@ Track A, version 11. Builds on A10.
 | `assets/img/client-logos/` | White, transparent client logos used in the homepage logo strip (also built into `index.html`). |
 | `assets/img/partner-logos/` | UNDP, Gurīn Energy and PRI logos used on the partner cards. |
 | `assets/logos/` | Event logos: trimmed white and black PNGs, plus the original uploads. The site uses the white version. |
-| `docs/UAIFS_A11_content_template.xlsx` | Fresh content template exported from A11, for the next round of copy changes. |
+| `docs/UAIFS_A12_content_template.xlsx` | Fresh content template exported from A12, for the next round of copy changes. |
 | `favicon.ico` | Site icon (16, 32 and 48 px) at the web root, where browsers look for it by default. |
 | `assets/favicon/` | The supplied favicon PNGs (16, 32, 180, 512 px) for reuse, e.g. in a web app manifest. |
 | `.nojekyll` | Lets GitHub Pages serve the site as-is. |
@@ -20,6 +20,12 @@ Track A, version 11. Builds on A10.
 ## How to upload
 
 Upload the **contents** of this folder to the web root, so `index.html` sits at the top level and `assets/` sits beside it. The social share image is referenced at `https://www.unlockingaiforsustainability.com/assets/img/og-share.jpg`; if the site lives on another domain, update the `og:image` line in `index.html`.
+
+## Changes in A12
+
+- **New speaker: Hor Chee Leng**, Head of Business Development, Southeast Asia, Principles for Responsible Investment (PRI), in the 11.15am panel "The next frontier – Future scenarios for AI and the world".
+- **New speaker: Carla Gomez Briones**, Lead for Climate and Sustainability and Officer-in-Charge, Global Centre for Technology, Innovation and Sustainable Development, UNDP, in the 12.00pm In focus session "AI in action: Proven use cases for sustainable impact".
+- Both have speaker cards (photo, short bio, full bio, "Speaking on" tags, session link) on Home, Speakers and Singapore 2026, and appear with their photos on their sessions' agenda cards.
 
 ## Changes in A11
 
