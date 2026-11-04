@@ -1,6 +1,6 @@
-# Unlocking AI for sustainability (UAIFS) website, version A12
+# Unlocking AI for sustainability (UAIFS) website, version A13
 
-Track A, version 12. Builds on A11.
+Track A, version 13. Builds on A12.
 
 ## What's in this folder
 
@@ -12,7 +12,7 @@ Track A, version 12. Builds on A11.
 | `assets/img/client-logos/` | White, transparent client logos used in the homepage logo strip (also built into `index.html`). |
 | `assets/img/partner-logos/` | UNDP, Gurīn Energy and PRI logos used on the partner cards. |
 | `assets/logos/` | Event logos: trimmed white and black PNGs, plus the original uploads. The site uses the white version. |
-| `docs/UAIFS_A12_content_template.xlsx` | Fresh content template exported from A12, for the next round of copy changes. |
+| `docs/UAIFS_A13_content_template.xlsx` | Fresh content template exported from A13, for the next round of copy changes. |
 | `favicon.ico` | Site icon (16, 32 and 48 px) at the web root, where browsers look for it by default. |
 | `assets/favicon/` | The supplied favicon PNGs (16, 32, 180, 512 px) for reuse, e.g. in a web app manifest. |
 | `.nojekyll` | Lets GitHub Pages serve the site as-is. |
@@ -20,6 +20,25 @@ Track A, version 12. Builds on A11.
 ## How to upload
 
 Upload the **contents** of this folder to the web root, so `index.html` sits at the top level and `assets/` sits beside it. The social share image is referenced at `https://www.unlockingaiforsustainability.com/assets/img/og-share.jpg`; if the site lives on another domain, update the `og:image` line in `index.html`.
+
+## Changes in A13
+
+Programme update (highlighted changes in the latest working doc):
+
+| Session | Was | Now |
+|---|---|---|
+| Fireside chat | 9.30am, 45 min | 9.30am, 30 min |
+| Opening plenary | 10.15am | 10.00am (45 min) |
+| Tea break | 11.00am | 10.45am |
+| Panel: The next frontier | 11.15am | 11.00am (45 min) |
+| In focus: AI in action | 12.00pm | 11.45am (30 min) |
+| The Oxford Debate | 12.30pm, 40 min | 12.15pm, 45 min |
+| Closing remarks | 1.10pm, 5 min | 1.00pm, 10 min |
+| Networking lunch | 1.15pm | 1.10pm (until 3.00pm) |
+
+- Times updated on the agenda cards, all three "day at a glance" bars, the homepage session cards, the Singapore 2026 session blocks and the About page day list.
+- **Jayant Narayan** moved from speaker to **moderator** of the 11.00am panel; his speaker cards now read "At the summit: Moderator, The next frontier…".
+- **New speaker: Steve Yim**, Director, Centre for Climate Change and Environmental Health, Nanyang Technological University, in the 11.45am In focus session. Speaker card with photo, short bio, full bio and "Speaking on" tags on Home, Speakers and Singapore 2026, and added to the session's agenda card.
 
 ## Changes in A12
 
