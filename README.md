@@ -1,6 +1,6 @@
-# Unlocking AI for sustainability (UAIFS) website, version A13
+# Unlocking AI for sustainability (UAIFS) website, version A14
 
-Track A, version 13. Builds on A12.
+Track A, version 14. Builds on A13.
 
 ## What's in this folder
 
@@ -12,7 +12,7 @@ Track A, version 13. Builds on A12.
 | `assets/img/client-logos/` | White, transparent client logos used in the homepage logo strip (also built into `index.html`). |
 | `assets/img/partner-logos/` | UNDP, Gurīn Energy and PRI logos used on the partner cards. |
 | `assets/logos/` | Event logos: trimmed white and black PNGs, plus the original uploads. The site uses the white version. |
-| `docs/UAIFS_A13_content_template.xlsx` | Fresh content template exported from A13, for the next round of copy changes. |
+| `docs/UAIFS_A14_content_template.xlsx` | Fresh content template exported from A14, for the next round of copy changes. |
 | `favicon.ico` | Site icon (16, 32 and 48 px) at the web root, where browsers look for it by default. |
 | `assets/favicon/` | The supplied favicon PNGs (16, 32, 180, 512 px) for reuse, e.g. in a web app manifest. |
 | `.nojekyll` | Lets GitHub Pages serve the site as-is. |
@@ -20,6 +20,13 @@ Track A, version 13. Builds on A12.
 ## How to upload
 
 Upload the **contents** of this folder to the web root, so `index.html` sits at the top level and `assets/` sits beside it. The social share image is referenced at `https://www.unlockingaiforsustainability.com/assets/img/og-share.jpg`; if the site lives on another domain, update the `og:image` line in `index.html`.
+
+## Changes in A14
+
+Programme update (highlighted changes in the latest working doc):
+- **New speaker: Dr Khee Poh Lam**, Professor of Architecture and the Built Environment, College of Design and Engineering, National University of Singapore, in the 10.00am opening plenary. Speaker card with photo, short bio, full bio and "Speaking on" tags on Home, Speakers and Singapore 2026; added to the plenary's agenda card and the homepage session card.
+- **The Oxford Debate:** motion changed back to "This House believes today's AI leaders **cannot** be trusted to govern AI responsibly" (agenda card and homepage card). Synopsis, why it matters and takeaways replaced with the programme text.
+- **1.00pm:** "Closing remarks – The ASEAN advantage" is now **Closing keynote address** (10 min). Day-at-a-glance bars, Singapore 2026 session blocks and the About page day list updated to read "Closing keynote".
 
 ## Changes in A13
 
